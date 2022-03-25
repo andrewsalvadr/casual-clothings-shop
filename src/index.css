@@ -149,63 +149,7 @@ border-bottom-right-radius: 50px;
 
 }
 
-/*******************************
-  Your Logo Section
-********************************/
 
-.your-logo{
-  font-family: 'Poppins', sans-serif;
-
-}
-
-.logo-first-text {
-  display: flex;
-  justify-content: center;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bolder;
-  margin-bottom: 50px;
-}
-
-.your-logo-samples {
-  display: flex;
-  justify-content: center;
-
-
-}
-
-.your-logo-sample-img {
-  margin: 20px;
-
-}
-
-.simple-process-text{
-  width: 500px;
-  font-size: 30px;
-  margin: 70px;
-  font-family: 'Poppins', sans-serif;
-  margin-top: 200px;
-}
-
-.simple-process-text2{
-  display: flex;
-  justify-content: center;
-  font-size: 30px;
-  margin: 70px;
-  font-family: 'Poppins', sans-serif;
-}
-
-.simple-process-text3{
-  margin-bottom: 100px;
-}
-
-.simple-process-logo {
-  margin-top: 150px;
-  width: 700px;
-}
-
-#placeit {
-  margin-left: 140px;
-}
 /*******************************
   Products Section
 ********************************/
@@ -665,7 +609,6 @@ border-bottom-right-radius: 50px;
   border-top: solid rgb(104, 101, 101);
   border-width: 1px;
   height: 200px;
-  width: 100%;
 }
 
 .social-media-section {
@@ -844,8 +787,8 @@ border-bottom-right-radius: 0px;
   margin-right: 0px;
   margin-top: 50px;
   margin-bottom: 10px;
-  height: 300px;
-  width: 400;
+  height: 280px;
+  width: 250;
   transition: transform 1s ease;
 }
 
@@ -860,8 +803,8 @@ border-bottom-right-radius: 0px;
   margin-right: 0px;
   margin-top: 50px;
   margin-bottom: 10px;
-  height: 300px;
-  width: 400;
+  height: 280;
+  width: 250;
   transition: transform 1s ease;
 }
 
@@ -876,8 +819,8 @@ border-bottom-right-radius: 0px;
   margin-right: 0px;
   margin-top: 50px;
   margin-bottom: 10px;
-  height: 300px;
-  width: 400;
+  height: 280px;
+  width: 250;
   transition: transform 1s ease;
 }
 
@@ -975,7 +918,6 @@ aside {
 .footer-section {
   border-top: solid rgb(104, 101, 101);
   border-width: 1px;
-  width: min-content;
   margin-top: 50px;
 }
 
@@ -983,12 +925,12 @@ aside {
   display: flex;
   justify-content: center;
   margin-top: 70px;
-  font-size: 45px;
+  font-size: 32px;
 }
 
 .social-media-link {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   color: black;
 }
 
