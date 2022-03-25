@@ -1,13 +1,1105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap');
+
+
+* {
+  max-width: auto;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/*******************************
+  Navigation Bar
+********************************/
+
+.navbar {
+  margin: 1px;
+  border-bottom: black solid;
+  border-width: 1px;
+}
+
+.navLogo {
+  padding-right: 100px;
+
+} 
+
+.main-logo{
+  width: 300px;
+}
+
+
+.nav-a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+
+.nav-a:hover {
+margin: 1px;
+background-color: rgb(243, 248, 253);
+box-shadow: 0 0 10px 10px rgba(255, 253, 247, 0.5);
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+
+#navBlog {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+#navdrop {
+  font-size: 21px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+#navCart {
+  margin-right: 20px;
+}
+
+.shopping-bag, .user-contact {
+  font-size: 24px;
+}
+
+.badge {
+ background-color: rgb(243, 52, 52);
+ color: white;
+ font-family: 'Poppins', sans-serif;
+ font-weight: bolder;
+}
+
+/*******************************
+  Icon and text cover
+********************************/
+
+.hero {
+  height: 100vh;
+  margin-bottom: 76px;
+}
+
+.icon-holder {
+  width: 100%;
+  height: 120%;
+  justify-content: flex-end;
+}
+
+.icon-holder__icon {
+  top: auto;
+  bottom: 29rem;
+  left: 55rem;
+  max-width: 4rem;
+}
+
+.icon-holder__text {
+  top: auto;
+  bottom: 20rem;
+  max-width: 7rem;
+}
+
+/*******************************
+  Reposition images
+********************************/
+.female-image__one {
+  top: 8rem;
+  width: 70vw;
+  margin-left: 100px;
+}
+
+.male-image__two {
+  margin-right: 250px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.kids-image__three {
+  top: 30rem;
+  bottom: auto;
+  margin-right: 250px;
+  width: 50vw;
+}
+
+
+/*******************************
+  Cart Section
+********************************/
+
+.cartHeader {
+  border-bottom: solid black;
+  border-width: 1px;
+}
+
+/*******************************
+  Shop Category-Section
+********************************/
+
+.image-category {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.shop-category{
+  margin: 20px;
+}
+
+.shop-category:hover {
+  transform: scale(0.99);
+
+}
+
+/*******************************
+  Your Logo Section
+********************************/
+
+.your-logo{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.logo-first-text {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+.your-logo-samples {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.your-logo-sample-img {
+  margin: 20px;
+
+}
+
+.simple-process-text{
+  width: 500px;
+  font-size: 30px;
+  margin: 70px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 200px;
+}
+
+.simple-process-text2{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: 70px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.simple-process-text3{
+  margin-bottom: 100px;
+}
+
+.simple-process-logo {
+  margin-top: 150px;
+  width: 700px;
+}
+
+#placeit {
+  margin-left: 140px;
+}
+/*******************************
+  Products Section
+********************************/
+
+.container-list {
+  display: inline-flex;
+}
+
+.product-image {
+  background-color: rgb(191, 215, 235);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 450px;
+  width: 400;
+  transition: transform 1s ease;
+}
+
+.product-image:hover {
+  background-color: white;
+  transform: scale(1.2);
+}
+
+.product-image-women {
+  background-color: rgb(235, 191, 217);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 450px;
+  width: 400;
+  transition: transform 1s ease;
+}
+
+.product-image-women:hover {
+  background-color: white;
+  transform: scale(1.2)
+}
+
+.product-image-kids {
+  background-color: rgb(191, 235, 209);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 450px;
+  width: 400;
+  transition: transform 1s ease;
+}
+
+.product-image-kids:hover {
+  background-color: white;
+  transform: scale(1.2)
+}
+
+.namebtn {  
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.add-cart-btn {
+  color: white;
+  background-color: black;  
+  margin-bottom: 50px;
+}
+
+.title-category {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.filter-products {
+  display: flex;
+  margin-left: 50px;
+}
+
+.form-control{
+  margin-left: 20px;
+  max-width: 250px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.block {
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.text-right {
+  text-align: right;
+}
+
+aside {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.cart-qty-btn {
+  display: flex;
+}
+
+
+.cart-item-added {
+  margin: 0px;
+}
+
+.remove, .add, .cart-checkout {
+  color: white;
+  background-color: black;  
+  margin-left: 1px;
+  margin-right: 1px;
+
+}
+
+.product-image-cart {
+  height: 50px;
+  width: 50px;
+}
+
+
+/*******************************
+  Footer-Section
+********************************/
+
+.footer-section {
+  border-top: solid rgb(104, 101, 101);
+  border-width: 1px;
+  height: 200px;
+}
+
+.social-media-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  font-size: 50px;
+}
+
+.social-media-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+}
+
+.social-media-link:hover {
+  color: black;
+}
+
+/* ///// Motion Banner ////// */
+
+/*******************************
+  Hero background
+********************************/
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  min-height: 35rem;
+  overflow: hidden;
+}
+
+/*******************************
+  Central icon and text
+********************************/
+.icon-holder {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 3rem;
+  padding: 2rem;
+  height: 19rem;
+}
+
+.icon-holder__icon {
+  position: absolute;
+  top: 0;
+  width: 17rem;
+}
+
+.icon-holder__icon img {
+  max-width: 300%;
+}
+
+.icon-holder__text {
+  font-size: 38px;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  bottom: 0;
+  max-width: 40px;
+}
+
+
+
+/*******************************
+  Gender images
+********************************/
+.gender-image {
+  position: absolute;
+}
+
+.gender-image img {
+  max-width: 100%;
+  margin: 40px;
+}
+
+.female-image__one {
+  left: -6rem;
+  width: 40vw;
+  max-width: 550px;
+}
+
+.male-image__two {
+  top: 0;
+  right: 0;
+  width: 40vw;
+  max-width: 390px;
+}
+
+.kids-image__three {
+  bottom: 0;
+  right: -0;
+  width: 40vw;
+  max-width: 290px;
+}
+
+@media (max-width: 1512px) {
+  /*******************************
+  Icon and text cover
+********************************/
+
+.hero {
+  height: 100vh;
+}
+
+.icon-holder {
+  width: 100%;
+  height: 120%;
+  justify-content: flex-end;
+}
+
+.icon-holder__icon {
+  top: auto;
+  bottom: 29rem;
+  left: 36rem;
+  max-width: 4rem;
+}
+
+.icon-holder__text {
+  top: auto;
+  bottom: 18rem;
+  max-width: 7rem;
+}
+
+/*******************************
+  Reposition images
+********************************/
+.female-image__one {
+  top: 10rem;
+  width: 70vw;
+}
+
+.male-image__two {
+  right: 10rem;
+  top: 5rem;
+}
+
+.kids-image__three {
+  top: 30rem;
+  bottom: auto;
+  right: 8rem;
+  width: 50vw;
+}
+
+}
+
+
+
+/*******************************
+  Responsive changes MBA 13 inch
+********************************/
+@media screen and (max-width: 1512px) {
+
+/*******************************
+  Navbar
+********************************/
+
+
+.navbar {
+  margin: 1px;
+  border-bottom: black solid;
+  border-width: 1px;
+}
+
+.navLogo {
+  padding-right: 100px;
+
+}
+
+.main-logo{
+  width: 250px;
+}
+
+
+.nav-a {
+  text-decoration: none;
+  font-size: 21px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+
+.nav-a:hover {
+margin: 1px;
+background-color: rgb(243, 248, 253);
+box-shadow: 0 0 10px 10px rgba(255, 253, 247, 0.5);
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+
+#navBlog {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+#navdrop {
+  font-size: 21px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+#navCart {
+  margin-right: 20px;
+}
+
+
+/*******************************
+  Icon and text cover
+********************************/
+
+.hero {
+  height: 100vh;
+}
+
+.icon-holder {
+  width: 100%;
+  height: 120%;
+  justify-content: flex-end;
+}
+
+.icon-holder__icon {
+  top: auto;
+  bottom: 29rem;
+  left: 36rem;
+  max-width: 4rem;
+}
+
+.icon-holder__text {
+  top: auto;
+  bottom: 18rem;
+  max-width: 7rem;
+}
+
+/*******************************
+  Reposition images
+********************************/
+.female-image__one {
+  top: 8rem;
+  width: 70vw;
+  left: -7rem;
+}
+
+.male-image__two {
+  right: 10rem;
+  top: 1rem;
+  right: -5rem;
+}
+
+.kids-image__three {
+  top: 31rem;
+  bottom: auto;
+  right: -5rem;
+  width: 50vw;
+}
+
+
+/*******************************
+  Shop Category-Section
+********************************/
+
+.image-category {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.shop-category {
+  height: 0px;
+}
+
+.shop-category:hover {
+  transform: scale(0.99);
+
+}
+
+/*******************************
+  Product Slides Section
+********************************/
+
+.productSlides {
+  padding-bottom: 50px;
+}
+
+/* .itemSwipe h4, .add-cart-button{
+  margin-left: 130px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+} */
+
+/*******************************
+  Cart Section
+********************************/
+
+.cart-result {
+  list-style: none;
+}
+
+/*******************************
+  Footer-Section
+********************************/
+
+.footer-section {
+  border-top: solid rgb(104, 101, 101);
+  border-width: 1px;
+  height: 200px;
+}
+
+.social-media-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  font-size: 40px;
+}
+
+.social-media-link {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+}
+
+
+
+
+
+/*******************************
+  iphone xr
+********************************/
+
+@media screen and (max-width: 414px) {
+
+/*******************************
+  Navigation Bar
+********************************/
+
+.navbar {
+  margin: 1px;
+  border-bottom: black solid;
+  border-width: 1px;
+  width: fit-content;
+}
+
+.navLogo {
+  padding-right: 100px;
+
+} 
+
+.main-logo{
+  width: fit-content;
+  height: 53px;
+}
+
+
+.nav-a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+
+.nav-a:hover {
+margin: 1px;
+background-color: rgb(243, 248, 253);
+box-shadow: 0 0 10px 10px rgba(255, 253, 247, 0.5);
+border-top-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+#navBlog {
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 18px;
+}
+
+
+#navdrop {
+  font-size: 21px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+#navCart {
+  margin-right: 20px;
+}
+
+.shopping-bag, .user-contact {
+  font-size: 24px;
+}
+
+.badge {
+ background-color: rgb(243, 52, 52);
+ color: white;
+ font-family: 'Poppins', sans-serif;
+ font-weight: bolder;
+ font-size: 16px;
+}
+
+/*******************************
+  Icon and text cover
+********************************/
+
+.hero {
+  height: 5vh;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.icon-holder {
+  width: 50%;
+  height: 0px;
+}
+
+.icon-holder__icon {
+  top: auto;
+  bottom: 0rem;
+  left: 0rem;
+  max-width: 4rem;
+  visibility: hidden;
+}
+
+.icon-holder__text {
+  top: 0;
+  bottom: 0rem;
+  left: 10px;
+  max-width: 1rem;
+}
+
+/*******************************
+  Reposition images
+********************************/
+.female-image__one {
+  top: 8rem;
+  width: 100%;
+  margin-left: 50px;
+  visibility: hidden;
+
+}
+
+.male-image__two {
+  margin-right: 250px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  visibility: hidden;
+
+}
+
+.kids-image__three {
+  top: 0rem;
+  bottom: auto;
+  margin-right: 0px;
+  width: 0vw;
+  visibility: hidden;
+}
+
+/*******************************
+  Cart Section
+********************************/
+
+.cartHeader {
+  border-bottom: solid black;
+  border-width: 1px;
+}
+
+/*******************************
+  Shop Category-Section
+********************************/
+
+.image-category {
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+
+.shop-category{
+  margin: 1px;
+  height: 150px;
+}
+
+.shop-category:hover {
+  transform: scale(0.99);
+
+}
+
+
+/*******************************
+  Products Section
+********************************/
+
+.container-list {
+  display: inline-flex;
+}
+
+.product-image {
+  background-color: rgb(191, 215, 235);
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 300px;
+  width: 400;
+  transition: transform 1s ease;
+}
+
+.product-image:hover {
+  background-color: white;
+  transform: scale(1.2);
+}
+
+.product-image-women {
+  background-color: rgb(235, 191, 217);
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 300px;
+  width: 400;
+  transition: transform 1s ease;
+}
+
+.product-image-women:hover {
+  background-color: white;
+  transform: scale(1.2)
+}
+
+.product-image-kids {
+  background-color: rgb(191, 235, 209);
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 300px;
+  width: 400;
+  transition: transform 1s ease;
+}
+
+.product-image-kids:hover {
+  background-color: white;
+  transform: scale(1.2)
+}
+
+.namebtn {  
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.add-cart-btn {
+  color: white;
+  background-color: black;  
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.title-category {
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.filter-products {
+  display: flex;
+  margin-left: 5px;
+}
+
+.form-control{
+  margin-left: 20px;
+  max-width: 180px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.block {
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.text-right {
+  text-align: right;
+}
+
+aside {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.cart-qty-btn {
+  display: flex;
+}
+
+
+.cart-item-added {
+  margin: 0px;
+}
+
+.remove, .add, .cart-checkout {
+  color: white;
+  background-color: black;  
+  margin-left: 1px;
+  margin-right: 1px;
+
+}
+
+.product-image-cart {
+  height: 50px;
+  width: 50px;
+}
+
+
+/*******************************
+  Footer-Section
+********************************/
+
+.footer-section {
+  border-top: solid rgb(104, 101, 101);
+  border-width: 1px;
+  width: min-content;
+  margin-top: 50px;
+}
+
+.social-media-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  font-size: 45px;
+}
+
+.social-media-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+}
+
+.social-media-link:hover {
+  color: black;
+}
+
+/* ///// Motion Banner ////// */
+
+/*******************************
+  Hero background
+********************************/
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  min-height: 35rem;
+  overflow: hidden;
+}
+
+/*******************************
+  Central icon and text
+********************************/
+.icon-holder {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 3rem;
+  padding: 2rem;
+  height: 19rem;
+}
+
+.icon-holder__icon {
+  position: absolute;
+  top: 0;
+  width: 17rem;
+}
+
+.icon-holder__icon img {
+  max-width: 300%;
+}
+
+.icon-holder__text {
+  font-size: 38px;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  bottom: 0;
+  max-width: 40px;
+}
+
+
+
+/*******************************
+  Gender images
+********************************/
+.gender-image {
+  position: absolute;
+}
+
+.gender-image img {
+  max-width: 100%;
+  margin: 40px;
+}
+
+.female-image__one {
+  left: -6rem;
+  width: 40vw;
+  max-width: 550px;
+}
+
+.male-image__two {
+  top: 0;
+  right: 0;
+  width: 40vw;
+  max-width: 390px;
+}
+
+.kids-image__three {
+  bottom: 0;
+  right: -0;
+  width: 40vw;
+  max-width: 290px;
+}
+
 }
