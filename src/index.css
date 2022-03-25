@@ -694,20 +694,6 @@ border-bottom-right-radius: 50px;
 /*******************************
   Navigation Bar
 ********************************/
-
-.navbar {
-  margin: 1px;
-  border-bottom: black solid;
-  border-width: 1px;
-  width: fit-content;
-}
-
-.navLogo {
-  padding-right: 100px;
-
-} 
-
-
 .nav-a {
   text-decoration: none;
   font-size: 18px;

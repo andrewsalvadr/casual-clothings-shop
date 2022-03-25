@@ -58,10 +58,6 @@ function App() {
   <div className='navbar'>
     <Navbar collapseOnSelect expand="lg" bg="white" text="black" fixed="top" className="navbar-bootstrap">
   <Container>
-  <Navbar.Brand href="#home" className="navLogo">
-  {/* <a href="#home"><img src={Logo} className="main-logo"></img></a> */}
-  </Navbar.Brand>
-
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
