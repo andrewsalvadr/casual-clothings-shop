@@ -1103,3 +1103,11 @@ aside {
 }
 
 }
+
+@media (max-width: 576px) {
+  .main-logo{
+    width: fit-content;
+  }
+  
+}
+
