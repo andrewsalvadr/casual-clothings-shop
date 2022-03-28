@@ -164,7 +164,7 @@ border-bottom-right-radius: 50px;
   margin-right: 50px;
   margin-top: 50px;
   margin-bottom: 10px;
-  height: 450px;
+  height: 350px;
   width: 400px;
   transition: transform 1s ease;
 }
@@ -180,7 +180,7 @@ border-bottom-right-radius: 50px;
   margin-right: 50px;
   margin-top: 50px;
   margin-bottom: 10px;
-  height: 450px;
+  height: 350px;
   width: 400px;
   transition: transform 1s ease;
 }
@@ -196,7 +196,7 @@ border-bottom-right-radius: 50px;
   margin-right: 50px;
   margin-top: 50px;
   margin-bottom: 10px;
-  height: 450px;
+  height: 350px;
   width: 400px;
   transition: transform 1s ease;
 }
@@ -401,7 +401,7 @@ aside {
 @media (max-width: 1512px) {
   /*******************************
   Icon and text cover
-********************************/
+*******************************/
 
 .hero {
   height: 100vh;
@@ -426,28 +426,27 @@ aside {
   max-width: 7rem;
 }
 
-/*******************************
+/* ******************************
   Reposition images
-********************************/
-.female-image__one {
+******************************* */
+ .female-image__one {
   top: 10rem;
   width: 70vw;
 }
 
 .male-image__two {
-  right: 10rem;
-  top: 5rem;
+  right: -4rem;
+  top: -2rem;
 }
 
 .kids-image__three {
-  top: 30rem;
+  top: 35rem;
   bottom: auto;
-  right: 8rem;
+  right: 1rem;
   width: 50vw;
 }
 
-}
-
+} 
 
 
 /*******************************
@@ -510,68 +509,19 @@ border-bottom-right-radius: 50px;
 }
 
 
-/*******************************
-  Icon and text cover
-********************************/
-
-.hero {
-  height: 100vh;
+.product-image, .product-image-women, .product-image-kids {
+  height: 300px;
+  width: 250px;
 }
-
-.icon-holder {
-  width: 100%;
-  height: 120%;
-  justify-content: flex-end;
-}
-
-.icon-holder__icon {
-  top: auto;
-  bottom: 29rem;
-  left: 36rem;
-  max-width: 4rem;
-}
-
-.icon-holder__text {
-  top: auto;
-  bottom: 18rem;
-  max-width: 7rem;
-}
-
-/*******************************
-  Reposition images
-********************************/
-.female-image__one {
-  top: 8rem;
-  width: 70vw;
-  left: -7rem;
-}
-
-.male-image__two {
-  right: 10rem;
-  top: 1rem;
-  right: -5rem;
-}
-
-.kids-image__three {
-  top: 31rem;
-  bottom: auto;
-  right: -5rem;
-  width: 50vw;
-}
-
 
 /*******************************
   Shop Category-Section
 ********************************/
 
-.image-category {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
 
-.shop-category {
-  height: 0px;
+.shop-category{
+  margin: 10px;
+  height: 450px;
 }
 
 .shop-category:hover {
@@ -580,47 +530,23 @@ border-bottom-right-radius: 50px;
 }
 
 /*******************************
-  Product Slides Section
+  Reposition images
 ********************************/
-
-.productSlides {
-  padding-bottom: 50px;
+.female-image__one {
+  top: 10rem;
+  width: 70vw;
 }
 
-/* .itemSwipe h4, .add-cart-button{
-  margin-left: 130px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 21px;
-} */
-
-/*******************************
-  Cart Section
-********************************/
-
-.cart-result {
-  list-style: none;
+.male-image__two {
+  right: -4rem;
+  top: -2rem;
 }
 
-/*******************************
-  Footer-Section
-********************************/
-
-.footer-section {
-  border-top: solid rgb(104, 101, 101);
-  border-width: 1px;
-  height: 200px;
-}
-
-.social-media-section {
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
-  font-size: 40px;
-}
-
-.social-media-link {
-  margin-left: 20px;
-  margin-right: 20px;
+.kids-image__three {
+  top: 35rem;
+  bottom: auto;
+  right: 1rem;
+  width: 50vw;
 }
 
 }
